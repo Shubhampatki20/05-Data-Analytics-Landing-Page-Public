@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Nav Bar */
+.logo img {
+    width: 120%;
+}
+
+#select-nav {
+    border: none;
+    font-size: 3vmin;
+}
+
+#select-nav:hover {
+    text-decoration: underline;
+    background-color: grey;
+    color: aliceblue;
+}
+
+.nav-bar-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    overflow: hidden;
+    background-color: #e6e0e0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 3vmin;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: grey;
+    color: aliceblue;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.start-btn {
+    font-size: 20px;
+    padding: 7px 15px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+}
+
+.start-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Main section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 200px;
+}
+
+/* Left Main section */
+.v-release {
+    display: flex;
+    font-size: 2.5vmin;
+    gap: 25px;
+    color: rgb(141, 29, 246);
+    border: 1px solid rgb(247, 243, 247);
+    background-color: rgb(247, 243, 247);
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.v-release h4,a{
+    font-weight: 500;
+    font-size: 2.5vmin;
+    color: blueviolet;
+}
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.left-heading h2 {
+    font-size: 10vmin;
+    width: 100%;
+}
+
+.left-para p {
+    font-size: 3vmin;
+    width: 100%;
+    color: rgb(109, 97, 97);
+}
+
+/* Left button */
+.left-btn {
+    display: flex;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+}
+
+.left-one-btn button {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    color: white;
+    font-size: 3vmin;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.left-one-btn button:hover {
+    background-color: white;
+    color: black;
+}
+
+.left-two-btn button {
+    color: blueviolet;
+    padding: 5px 35px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 3vmin;
+    cursor: pointer;
+}
+
+.left-two-btn button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Right Main Section */
+.right-main img {
+    width: 130%;
+}
+
+.right-main img:hover {
+    scale: 1.2;
+}
+
+/* Features Section */
+.features{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 75px;
+}
+.qubly{
+    color: blueviolet;
+    border: 1px solid rgb(237, 234, 240);
+    border-radius: 25px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 140px;
+    background-color: rgb(237, 234, 240);
+}
+.three-step-heading h2{
+    font-size: 6vmin;
+}
+.three-step-para p{
+    font-size: 3vmin;
+    width: 800px;
+}
+
+/* Three step */
+.three-benifits{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+/* one */
+.one-beni img{
+    width: 80px;
+}
+.one-beni{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.one-beni h3{
+    font-size: 4vmin;
+}
+.one-beni p{
+    font-size: 3vmin;
+    width: 420px;
+    color: rgb(41, 45, 41);
+}
+
+/* two */
+.two-beni img{
+    width: 80px;
+}
+.two-beni{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.two-beni h3{
+    font-size: 4vmin;
+}
+.two-beni p{
+    font-size: 3vmin;
+    width: 420px;
+    color: rgb(39, 44, 39);
+}
+
+/* Three */
+.three-beni img{
+    width: 80px;
+}
+.three-beni{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.three-beni h3{
+    font-size: 4vmin;
+}
+.three-beni p{
+    font-size: 3vmin;
+    width: 420px;
+    color: rgb(42, 46, 42);
+}
+
+/* launch section */
+.launch{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-launch{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.product-teams-img{
+    color: blueviolet;
+    border: 1px solid rgb(237, 234, 240);
+    border-radius: 25px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 280px;
+    background-color: rgb(237, 234, 240);
+    font-weight: bold;
+}
+
+.product-teams-head h3{
+    font-size: 7vmin;
+}
+.product-teams-para  p{
+    font-size: 2.5vmin;
+}
+
+
+/* Pipeline section */
+.pipeline{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-pipeline{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.pipeline-teams-img{
+    color: blueviolet;
+    border: 1px solid rgb(237, 234, 240);
+    border-radius: 25px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 280px;
+    background-color: rgb(237, 234, 240);
+    font-weight: bold;
+}
+
+.pipeline-teams-head h3{
+    font-size: 5vmin;
+}
+.pipeline-teams-para  p{
+    font-size: 2.5vmin;
+}
+
+/* Profile section */
+.profile-detai{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+.profile-detai h3{
+    font-size: 3vmin;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.line{
+    height: 2px;
+    width: 60%;
+    background-color: #857b7b;
+}
+.logo-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+/* Sign Up Section */
+
+.signUp{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+
+/* Left part sign up part */
+.left-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.left-signup h3{
+    font-size: 4vmin;
+}
+.trus-line{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.line-one{
+    height: 5px;
+    background-color: grey;
+    width: 120px;
+}
+.line-one{
+    height: 2px;
+    background-color: grey;
+    width: 120px;
+}
+.center-line h6{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* Logo two line */
+.trus-logo-one{
+    display: flex;
+    gap: 100px;
+}
+.trus-logo-two{
+    display: flex;
+    gap: 100px;
+}
+
+/* Sign UP Box */
+/* .right-signup{
+   background-color: rgb(203, 196, 196);
+   height: 480px;
+   width: 500px;
+} */
+.sign-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    /* margin-left: 30px; */
+}
+.sign-btn{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 7px 0px ;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sign-box input{
+    padding: 10px 0px;
+}
+.sign-box input::placeholder{
+    font-size: 18px;
+}
+.sign-box h4{
+    font-size: 25px;
+}
+
+.line-sign{
+    height: 1px;
+    background-color: grey;
+    width:400px;
+}
+.sign-box h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.sign-box img{
+    width: 250px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* Footer */
+.colum-six{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Col One */
+.col-one{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+.col-one img{
+    width: 200px;
+}
+.foot-icon{
+    display: flex;
+    gap:50px;
+}
+.foot-icon img{
+    width: 50px;
+}
+
+/* Col Two */
+.col-two{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.col-two-head h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.data-col-two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data-col-two h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Col Three */
+.col-three{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.col-three-head h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.data-col-three{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data-col-three h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Col Four */
+.col-four{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.col-four-head h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.data-col-four{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data-col-four h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Col Five */
+.col-five{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.col-five-head h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.data-col-five{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data-col-five h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.underline-link h4:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Col Six */
+
+.col-six{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.data-col-six{
+    display: flex;
+    gap: 50px;
+    border: 1px solid rgb(225, 220, 230);
+    background-color: rgb(211, 203, 216);
+    padding: 15px 10px;
+    border-radius: 25px;
+}
+.data-col-six h4{
+    font-size: 3vmin;
+    font-weight: 400;
+}

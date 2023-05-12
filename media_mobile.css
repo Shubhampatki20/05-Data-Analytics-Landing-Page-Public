@@ -1,0 +1,245 @@
+/* 600 768 992 1200 */
+
+
+@media screen and (max-width:600px) {
+    nav {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .nav-bar-section {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .v-release{
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .v-release h4,a{
+        font-weight: 500;
+        font-size: 3.5vmin;
+        color: blueviolet;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 120px;
+        text-align: center;
+    }
+    .left-main{
+        gap: 25px;
+    }
+    .left-para p {
+        font-size: 4.5vmin;
+    }
+    .left-btn {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-one-btn button {
+        font-size: 5vmin;
+        padding: 10px 20px;
+    }
+    .left-two-btn button {
+        font-size: 5vmin;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+    .right-main img {
+        width: 80%;
+    }
+
+    .features {
+        margin-top: 100px;
+        gap: 25px;
+    }
+
+    .three-step-para p {
+        font-size: 4vmin;
+        width: 100%;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .three-benifits {
+        gap: 50px;
+    }
+
+    .launch {
+        margin-top: 50px;
+        gap: 70px;
+    }
+
+    .launch img {
+        max-width: 100%;
+    }
+
+    .pipeline {
+        margin-top: 100px;
+    }
+
+    .pipeline img {
+        max-width: 100%;
+    }
+
+    .profile-detai {
+        margin-top: 10px;
+    }
+    .profile-detai h3{
+        max-width: 100%;
+    }
+
+    .logo-line {
+        gap: 50px;
+        /* flex-direction: column; */
+    }
+
+    .left-signup {
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .signUp {
+        gap: 100px;
+    }
+
+    .left-signup h3 {
+        font-size: 7vmin;
+        text-align: center;
+    }
+
+    /* .right-signup {
+        height: 100%;
+        max-width: 100%;
+    } */
+
+    .sign-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 2px 2px;
+        margin-left: none;
+    }
+    .line-sign{
+        width:300px;
+    }
+
+    .colum-six{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 50px;
+    }
+    .col-one{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 70px;
+    }
+    .col-one p{
+        text-align: center;
+    }
+    .col-one img{
+        max-width: 100%;
+    }
+
+    .col-six{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .data-col-six{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        border: 1px solid rgb(225, 220, 230);
+        background-color: rgb(211, 203, 216);
+        padding: 10px 10px;
+        border-radius: 25px;
+    }
+    .data-col-six h4{
+        font-size: 3vmin;
+        font-weight: 400;
+    }
+    .data-col-six input{
+        padding: 4px 2px;
+    }
+    .data-col-six img{
+        width: 30px;
+    }
+    .one-beni h3{
+        font-size: 5vmin;
+    }
+    .one-beni p{
+        font-size: 5vmin;
+        color: rgb(41, 45, 41);
+        width: 100%;
+    }
+    .two-beni h3{
+        font-size: 5vmin;
+    }
+    .two-beni p{
+        font-size: 5vmin;
+        width: 100%;
+    }
+    .three-beni h3{
+        font-size: 5vmin;
+    }
+    .three-beni p{
+        font-size: 5vmin;
+        width: 100%;
+    }
+    
+    .product-teams-para  h3{
+        text-align: center;
+    }
+    .product-teams-para  p{
+        font-size: 5vmin;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .product-teams-head h3{
+        font-size: 7vmin;
+        text-align: center;
+    }
+    .pipeline-teams-para  p{
+        font-size: 4vmin;
+        text-align: center;
+    }
+    .pipeline-teams-head h3{
+        font-size: 7vmin;
+        text-align: center;
+    }
+    .pipeline-teams-para  p{
+        font-size: 5vmin;
+        text-align: center;
+    }
+    .profile-detai h3{
+        font-size: 5vmin;
+        font-weight: 500;
+    }
+}
